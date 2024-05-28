@@ -7,6 +7,10 @@
 
 body {
     margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
@@ -33,4 +37,20 @@ header {
 #nav-items a {
     text-decoration: none;
     color:darkblue;
+}
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media a i {
+    font-size: 32px;
+    color: darkblue;
 }

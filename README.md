@@ -8,3 +8,6 @@ This is a website to present myself as a web developer. It contains my resume, w
 ### Header
 The header component has a logo created by myself along my name. The navigation bar has links to navigate through different pages on the website.
 
+### Footer
+The footer contains my email address and phone number. There are also icons tagged to my professional accounts such as Linkedin and GitHub.
+
