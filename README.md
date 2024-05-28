@@ -12,6 +12,12 @@ The header component has a logo created by myself along my name. The navigation 
 The footer contains my email address and phone number. There are also icons tagged to my professional accounts such as Linkedin and GitHub.
 
 ### Home
-
 The home page has an image picked from Unplashed that shows someone typing on their computer, along with the image there's a small brief of my self and what I do.
+
+### Blog Page
+The blog page has 5 blogs with an image each and published dates. I still need to link the blog pages to the respective links.
+
+### Contact Page
+The contact page has a form with labels and inputs to connect the web user to myself.
+
 
