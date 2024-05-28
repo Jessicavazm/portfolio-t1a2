@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #82a6b1;
-    --secondary-color: #D9D9D9;
+    --primary-color: #82a6b1f;
+    --secondary-color: #0e3133;
     --primary-background: #FFFFFF;
 }
 
@@ -9,12 +9,14 @@ body {
     min-height: 100dvh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(to top, #ffffff 10%, #82a6b1 100%);
 }
 
 header {
     background-color: var(--primary-color);
     text-align: center;
-    padding: 2%;
+    padding: 4%;
 }
 
 
@@ -35,11 +37,11 @@ header {
 
 #nav-items a {
     text-decoration: none;
-    color:darkblue;
+    color: #0e3133;
 }
     
 footer {
-    background-color: var(--primary-color);
+    background-color: white;
     text-align: center;
     padding: 10px;
 }
@@ -51,20 +53,20 @@ footer {
 
 .social-media a i {
     font-size: 32px;
-    color: darkblue;
+    color: #0e3133;
     padding: 18px;
 }
 
 .info {
     font-size: 18px;
-    color: darkblue;
+    color: #000000;
 }
 
 .info p {
     margin: 5px 0;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 769px) {
     header {
         display: flex;
         align-items: flex-end;
@@ -72,7 +74,7 @@ footer {
     }
     
     .name {
-        color: #111111;
+        color: #0e3133;
     }
     
     #nav-items {

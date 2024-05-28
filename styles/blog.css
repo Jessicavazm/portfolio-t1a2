@@ -1,0 +1,22 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    
+}
+
+article {
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+.blog-image {
+    width: 400px;
+}
+
+
