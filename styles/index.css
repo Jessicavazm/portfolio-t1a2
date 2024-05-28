@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #82a6b1;
+    --secondary-color: #D9D9D9;
+    --primary-background: #FFFFFF;
+
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.logo-name a img {
+    height: 150px;
+}
+
+.logo-name {
+    font-size: 32px;
+}
+
+#nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+#nav-items a {
+    text-decoration: none;
+    color:darkblue;
+}
