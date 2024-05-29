@@ -1,0 +1,17 @@
+.services img {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 28px;
+    color: var(--secondary-color);
+    padding-top: 20px;
+}
+
+@media screen and (min-width 1024px){
+    
+}
