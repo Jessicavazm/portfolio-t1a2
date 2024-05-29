@@ -1,0 +1,19 @@
+.jessicavaz img {
+width: 30%;
+border-radius: 20px;
+}
+
+.resume {
+    display: inline-block;
+    background-color: #82a6b1;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.resume:hover {
+    background-color: rgb(126, 186, 204);
+}   

@@ -16,6 +16,7 @@ main {
 
 .form-input {
     font-size: 18px;
+    border: 1px solid var(--secondary-color);
     outline: none;
     border-radius: 4px;
 }
@@ -64,6 +65,14 @@ main {
 
     .form-elements label {
         font-size: 24px;
+        margin: auto;
     }
     
+    .form-input {
+        width: 70%;
+    }
+    
+    #submit {
+        font-size: 24px;
+    }
 }
