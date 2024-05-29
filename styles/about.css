@@ -1,6 +1,13 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 .jessicavaz img {
-width: 30%;
-border-radius: 20px;
+    display: flex;
+    width: 30%;
+    margin: auto;
+    border-radius: 20px;
 }
 
 .resume {
@@ -16,4 +23,8 @@ border-radius: 20px;
 
 .resume:hover {
     background-color: rgb(126, 186, 204);
-}   
+} 
+
+.text {
+    text-align: center;
+}

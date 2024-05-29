@@ -19,4 +19,11 @@ article {
     width: 400px;
 }
 
-
+.readmore {
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;    
+}
