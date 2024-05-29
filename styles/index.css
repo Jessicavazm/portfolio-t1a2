@@ -1,6 +1,6 @@
 :root {
     --primary-color: #82a6b1f;
-    --secondary-color: #0e3133;
+    --secondary-color: #004c63;
     --primary-background: #FFFFFF;
 }
 
@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: linear-gradient(to top, #ffffff 10%, #82a6b1 100%);
+    background-image: linear-gradient(to top, #ffffff 20%, #82a6b1 100%);
 }
 
 header {
@@ -19,12 +19,12 @@ header {
     padding: 4%;
 }
 
-
 .logo a img {
     height: 150px;
 }
 
 .name {
+    color: #0f3a3d;
     font-size: 32px;
 }
 
@@ -37,7 +37,7 @@ header {
 
 #nav-items a {
     text-decoration: none;
-    color: #0e3133;
+    color: #004c63;
 }
     
 footer {
@@ -53,7 +53,7 @@ footer {
 
 .social-media a i {
     font-size: 32px;
-    color: #0e3133;
+    color: #004c63;
     padding: 18px;
 }
 
@@ -66,7 +66,7 @@ footer {
     margin: 5px 0;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
     header {
         display: flex;
         align-items: flex-end;
@@ -75,6 +75,8 @@ footer {
     
     .name {
         color: #0e3133;
+        font-size: 36px;
+        align-self: center;
     }
     
     #nav-items {
@@ -87,5 +89,9 @@ footer {
 
     .social-media {
         margin-left: 90%;
+    }
+
+    .logo a img {
+        height: 200px;
     }
 }
