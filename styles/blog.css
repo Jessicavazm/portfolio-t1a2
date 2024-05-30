@@ -6,6 +6,10 @@ main {
     
 }
 
+h3 {
+    color: #004c63;
+}
+
 article {
     background-color: white;
     border-radius: 16px;
@@ -21,7 +25,7 @@ article {
 
 .readmore {
     text-decoration: none;
-    color: black;
+    color: var(--secondary-color);
     background-color:white;
     padding: 4px;
     border-radius: 4px;
