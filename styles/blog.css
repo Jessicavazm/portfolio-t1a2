@@ -8,6 +8,7 @@ main {
 
 h3 {
     color: #004c63;
+    font-size: 20px;
 }
 
 article {
@@ -29,5 +30,6 @@ article {
     background-color:white;
     padding: 4px;
     border-radius: 4px;
-    cursor: pointer;    
+    cursor: pointer; 
+    font-size: 20px;   
 }
