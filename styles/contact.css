@@ -10,6 +10,13 @@ main {
 
 }
 
+.text {
+    background-color: lightcoral;
+    padding: 8px;
+    border-radius: 8px;
+    
+}
+
 .form-elements label {
     font-size: 20px;
 }
