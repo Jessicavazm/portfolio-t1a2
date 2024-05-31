@@ -1,9 +1,15 @@
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 20px;
+}
+
 .services img {
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: auto;
-    border-radius: 20px;
-}
+    border-radius: 20px
+}   
 
 .subtitle {
     text-align: center;
@@ -16,6 +22,14 @@ ul li {
     margin: 4%;
 }
 
-@media screen and (min-width 1024px){
+@media screen and (min-width: 1024px) {
+
+    main {
+            display: flex;
+            flex-direction: row;
+        }
     
-}
+    ul {
+        display: flex;
+    }
+    }

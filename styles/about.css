@@ -15,8 +15,6 @@ main {
     background-clip: padding-box; 
 }
 
-
-
 .resume {
     display: inline-block;
     background-color: #82a6b1;
@@ -32,4 +30,12 @@ main {
     background-color: rgb(126, 186, 204);
 } 
 
+@media screen and (min-width: 1024px) {
 
+main {
+        display: flex;
+        flex-direction: row;
+        margin: 24px 20px;
+    }
+}
+    
