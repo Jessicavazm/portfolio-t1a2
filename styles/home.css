@@ -1,13 +1,9 @@
 
 .cover-photo img {
     display: flex;
-    width: 80%;
+    width: 70%;
     margin: auto;
-    border-radius: 20px;
-}
-
-.text {
-    margin: 24px 20px
+    border-radius: 20px; 
 }
 
 

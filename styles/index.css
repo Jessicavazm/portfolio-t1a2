@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #82a6b1f;
+    --primary-color: #82a6b1;
     --secondary-color: #004c63;
     --primary-background: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,9 +13,10 @@ body {
 
 header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-}
+    justify-content: space-between;
+} 
 
 .logo a img {
     height: 150px;
@@ -30,32 +31,19 @@ header {
     padding-bottom: 4px;
 }
 
-#nav-items ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
 .nav-items a {
     text-decoration: none;
     color: #002c3a;
     padding: 2px;
     display: block;
-    margin: 10px 0; 
+    margin: 10px;
     font-size: 20px;
 }
 
 main {
     display: flex;
     flex-direction: column;
-}
-
-.cover-photo {
-    padding-top: 24px;
-}
-
-footer {
-    text-align: center;
+    margin: 24px
 }
 
 .social-media {
@@ -71,12 +59,35 @@ footer {
 
 .info {
     font-size: 18px;
+    text-align: center;
 }
 
 .info p {
     margin: 5px 20px;
 }
 
+@media screen and (min-width: 769px) {
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    } 
+
+    .nav-items {
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        justify-content: space-around;
+        font-size: 28px;
+        width: 50%;
+    }
+
+    .nav-items a {
+        font-size: 24px;
+    }
+
+}
 
 @media screen and (min-width: 1024px) {
     
@@ -95,8 +106,12 @@ header {
     flex-direction: row; 
     align-items: flex-end;
     justify-content: space-around;
-    font-size: 38px;
+    font-size: 32px;
     width: 50%;
+}
+
+.nav-items a {
+    font-size: 28px;
 }
 
 main {

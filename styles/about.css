@@ -1,12 +1,12 @@
 main {
     display: flex;
     flex-direction: column;
-    margin: 24px 20px;
+    margin: 24px;
 }
 
 .jessicavaz img {
     display: flex;
-    width: 70%;
+    width: 60%;
     margin: auto;
     border-radius: 20px;
     border: 5px solid transparent; 
@@ -35,7 +35,4 @@ main {
 main {
         display: flex;
         flex-direction: row;
-        margin: 24px 20px;
     }
-}
-    

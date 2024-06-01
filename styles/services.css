@@ -1,12 +1,12 @@
 main {
     display: flex;
     flex-direction: column;
-    margin: 24px 20px;
+    margin: 24px;
 }
 
 .services img {
     display: flex;
-    width: 80%;
+    width: 70%;
     margin: auto;
     border-radius: 20px
 }   
@@ -29,7 +29,4 @@ ul li {
             flex-direction: row;
         }
     
-    ul {
-        display: flex;
-    }
     }
