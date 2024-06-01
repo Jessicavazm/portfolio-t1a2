@@ -19,12 +19,12 @@ header {
 } 
 
 .logo a img {
-    height: 150px;
+    height: 130px;
 }  
 
 .name {
     color: black;
-    font-size: 38px;
+    font-size: 32px;
     font-family: "Sevillana", cursive;
     font-weight: 400;
     font-style: normal;
@@ -36,7 +36,7 @@ header {
     color: #002c3a;
     padding: 2px;
     display: block;
-    margin: 10px;
+    margin: 4px;
     font-size: 20px;
 }
 
@@ -87,6 +87,14 @@ main {
         font-size: 24px;
     }
 
+    .logo a img {
+        height: 150px;
+    } 
+
+    .name {
+        font-size: 42px;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -113,6 +121,10 @@ header {
 .nav-items a {
     font-size: 28px;
 }
+
+.logo a img {
+    height: 180px;
+} 
 
 main {
     flex-direction: row;
