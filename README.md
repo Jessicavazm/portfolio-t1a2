@@ -26,4 +26,3 @@ The about page contains a photo along some information about myself and a link t
 ### Contact Page
 The contact page has a form with labels and inputs to connect the web user to myself.
 
-
