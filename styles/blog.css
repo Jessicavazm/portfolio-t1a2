@@ -9,7 +9,7 @@ main {
 }
 
 h3 {
-    color: #004c63;
+    color: var(--secondary-color);
     font-size: 20px;
 }
 
@@ -28,13 +28,16 @@ article {
 .readmore {
     text-decoration: none;
     color: white;
-    background-color: #004c63;
+    background-color: var(--secondary-color);
     padding: 4px;
     border-radius: 4px;
     cursor: pointer; 
     font-size: 20px; 
 }
 
+.readmore:hover {
+    background-color:  hsl(194, 57%, 32%);
+}
 
 
 

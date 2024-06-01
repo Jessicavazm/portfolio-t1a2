@@ -1,9 +1,15 @@
 
 .cover-photo img {
-    display: flex;
+    display: block;
     width: 70%;
     margin: auto;
     border-radius: 20px; 
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.cover-photo:hover {
+    opacity: 0.5;
 }
 
 

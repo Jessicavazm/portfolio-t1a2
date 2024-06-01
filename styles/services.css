@@ -5,10 +5,10 @@ main {
 }
 
 .services img {
-    display: flex;
+    display: block;
     width: 70%;
     margin: auto;
-    border-radius: 20px
+    border-radius: 20px;
 }   
 
 .subtitle {

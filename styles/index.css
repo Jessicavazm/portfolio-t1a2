@@ -21,10 +21,11 @@ header {
 
 .logo a img {
     height: 130px;
-}  
+}
+
 
 .name {
-    color: black;
+    color:black;
     font-size: 2rem;
     font-family: "Sevillana", cursive;
     font-weight: 400;
@@ -38,12 +39,20 @@ header {
     padding: 2px;
     display: block;
     margin: 4px;
-    font-size: 1.25rem;   
+    font-size: 1.25rem;
+    background: beige;
+    border-radius: 10%;
+    box-shadow: -2px 10px 5px 0px;   
+}
+
+.nav-items a:hover {
+    background-color: antiquewhite;
 }
 
 .nav-items {
     display: flex;
     flex-direction: column;
+    gap: 4px;
 }
 
 main {
@@ -125,5 +134,17 @@ footer {
 
     footer {
         font-size: 1.5rem;
+    }
+
+    .logo {
+        animation: shake 0.5s ease-in-out 5;
+    }
+
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-5px); }
+        50% { transform: translateX(5px); }
+        75% { transform: translateX(-5px); }
+        100% { transform: translateX(0); }
     }
 }
