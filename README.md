@@ -16,7 +16,7 @@
 * Trello
 
 ## Purpose 
-This is a website to present myself as a web developer. It contains my resume, what types of services I'm offering as an IT professional and blog page that contains 5 blog posts. In this website, I will be demonstrating my abilities with what I have learnt from the month in web programming.
+This is a website to present myself as a web developer. It contains my resume, what types of services I'm offering as an IT professional and blog page that contains 5 blog posts. In this website, I will be demonstrating my abilities with what I have learnt from web programming in the past month with Coder Academy.
 
 ## Functionality/ features
 My website features a simple design which is clear to the viewers. I have included a navigation bar in all pages that facilitates navigation between different pages, along external links to connect with me placed in the footer of each page. I have created different CSS layout depending on the screen size to optimaze the user experience and applied an animation to my logo to make it more fun. On smaller screens, I have the components in a column and in bigger screens components switches to row direction instead. I also increased font sizes as the screen gets bigger. My decision making to the overall aesthetic of the website was to keep things simple and try to understanding each step, I have used the online classes to help me build the website and now that I understand a little bit more about web programming I should be able to improve the overall aesthetic and functionality of my next project.
