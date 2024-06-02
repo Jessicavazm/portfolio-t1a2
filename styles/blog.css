@@ -1,16 +1,16 @@
+/* For the blog page I have set the display flex, flex-direction and flex-wrap: wrap so as the screens gets bigger the carts goes side by side. I gave some extra styling */
 main {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 32px;
     margin: 24px;
     
 }
-
+/* Here I gave some extra styling to H3, .readmore and hover effect on .readmore */
 h3 {
     color: var(--secondary-color);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 section {

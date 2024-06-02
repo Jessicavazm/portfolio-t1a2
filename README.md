@@ -1,15 +1,19 @@
-# Portfolio-t1a2
-Links for Netlify and Github:
+# Portfolio-T1A2 - Jessica Vaz
 
-https://jessicavaz-t1a2.netlify.app/
+## Links for Netlify and GitHub:
 
-https://github.com/Jessicavazm/portfolio-t1a2
+[Netflify](https://jessicavaz-t1a2.netlify.app/)
+
+[GitHub](https://github.com/Jessicavazm/portfolio-t1a2)
 
 ## Tech stack
 * HTML
 * CSS
 * GitHub
 * Netlify
+* Figma
+* Draw.io
+* Trello
 
 ## Purpose 
 This is a website to present myself as a web developer. It contains my resume, what types of services I'm offering as an IT professional and blog page that contains 5 blog posts. In this website, I will be demonstrating my abilities with what I have learnt from the month in web programming.

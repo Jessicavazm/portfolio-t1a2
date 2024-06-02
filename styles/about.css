@@ -1,9 +1,11 @@
+/* For the main I wanted to have the items in columns so I applied display flex here. I also added a margin to have extra space between margin and text */
 main {
     display: flex;
     flex-direction: column;
     margin: 24px;
 }
 
+/* I have applied display block and margin auto to center my photo and I also added a gradient colour margin to img */
 .jessicavaz img {
     display: block;
     width: 100%;
@@ -15,24 +17,31 @@ main {
     background-clip: padding-box; 
 }
 
+/* Resume has a button looking design along with a hover effect */
 .resume {
     display: inline-block;
     background-color: #82a6b1;
     color: black;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-decoration: none;
     padding: 10px 10px;
     border-radius: 8px;
+    box-shadow: -2px 8px 5px 0px;
     cursor: pointer;
 }
 
 .resume:hover {
-    background-color: rgb(126, 186, 204);
+    background-color: beige;
 } 
 
+/* For the desktop screen I have set the flex-direction to row */
 @media screen and (min-width: 1024px) {
 
 main {
         flex-direction: row;
+    }
+    
+    .jessicavaz img {
+        width: 70%;
     }
 }

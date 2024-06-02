@@ -1,3 +1,4 @@
+/* Here I have display flex and flex direction in column for mobile, I have also added some styling to subtitle*/
 main {
     display: flex;
     flex-direction: column;
@@ -13,7 +14,7 @@ main {
 
 .subtitle {
     text-align: center;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: var(--secondary-color);
     padding-top: 20px;
 }
@@ -21,7 +22,7 @@ main {
 ul li {
     margin: 4%;
 }
-
+/* For desktops I have sent the flex direction in row and decreased the photo width */
 @media screen and (min-width: 1024px) {
 
     main {

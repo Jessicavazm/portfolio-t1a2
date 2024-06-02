@@ -1,3 +1,10 @@
+/* Used display block and margin auto to center image and added opacity effect*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 24px
+}
 
 .cover-photo img {
     display: block;
@@ -12,8 +19,12 @@
     opacity: 0.5;
 }
 
+/* For desktop I have set the flex-direction to row and decreased the size of the image*/
 @media screen and (min-width: 1024px) {
 
+main {
+    flex-direction: row;
+}
 .cover-photo img {
     width: 70%;
 }
